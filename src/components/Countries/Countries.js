@@ -13,7 +13,7 @@ const Countries = () => {
         <div>
             <h1>This is from Country components!</h1>
             {
-                countries.map(country => <Country name={country.name.common} population={country.population}></Country>)
+                countries.map(country => <Country name={country.name.common} population={country.population} area={country.area} imgUrl={country.flags.png}></Country>)
             }
         </div>
     );

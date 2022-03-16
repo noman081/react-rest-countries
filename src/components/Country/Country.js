@@ -5,7 +5,7 @@ const Country = (props) => {
     return (
         <div className="country">
             <img src={props.imgUrl} alt="" />
-            <h1>Name: {props.name}</h1>
+            <h1>{props.name}</h1>
             <p>Population: {props.population}</p>
             <p>Area: {props.area}</p>
         </div>
